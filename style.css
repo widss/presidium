@@ -1,0 +1,74 @@
+/***********import***********/
+
+/***********tag***********/
+
+/***********class***********/
+/*navbar*/
+.container-fluid{
+	padding: 0;
+}
+.navbar{
+	background-color: #086e40;
+	width: 100%;
+	padding: 1rem 4rem;
+}
+/*profil presid*/
+.profil .row{
+	margin: 12rem 4rem;
+}
+.profil h1{
+	text-align: center;
+	position: relative;
+	top: 120px;
+}
+.logo{
+	text-align: center;
+}
+.logo-img{
+	width: 214.5px;
+	height: 250px;
+}
+.text-profil p{
+	margin: 2rem auto;
+	text-align: justify;
+}
+
+/*profil anggota*/
+.hansen{
+	text-align: center;
+	margin: auto 4rem;
+	padding: 5rem 1rem;
+}
+.text-hansen{
+	text-align: right;
+}
+.foto-hansen-2{
+	text-align: left;
+}
+.foto-hansen{
+	border-radius: 100%;
+	margin: auto 10rem;
+		border-style: solid;
+	border-width: 6px;
+	border-color: #086e40;
+}
+
+.nathan{
+	text-align: center;
+	margin: auto 4rem;
+	padding: 5rem 1rem;
+}
+.text-nathan{
+	text-align: left;
+}
+.foto-nathan-2{
+	text-align: right;
+}
+.foto-nathan{
+	border-radius: 100%;
+	margin: auto 10rem;
+	border-style: solid;
+	border-width: 6px;
+	border-color: #086e40;
+}
+/***********id***********/
