@@ -15,6 +15,10 @@ h5{
 	text-align: center;
 
 }
+hr{
+	width: 50%;
+	border:0.2px solid grey;
+}
 /***********class***********/
 /*navbar*/
 .container-fluid{
