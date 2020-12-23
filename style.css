@@ -27,6 +27,17 @@ margin: 0;
 	padding: 1rem 4rem;
 	color: #fff;
 }
+/*jumbotron*/
+.jumbotron{
+	margin: 0;
+}
+.container h1,.container{
+	text-align: left;
+}
+.container{
+	padding: 1rem 4rem;
+	margin:0;
+}
 /*profil presid*/
 .profil .row{
 	margin: 12rem 4rem;
