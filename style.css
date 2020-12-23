@@ -1,16 +1,31 @@
-/***********import***********/
+**********import***********/
 
 /***********tag***********/
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+h1{
+	text-align: center;
+	color: #086e40;
+}
+h5{
+	text-align: center;
 
+}
 /***********class***********/
 /*navbar*/
 .container-fluid{
-	padding: 0;
+padding: 0 !important;
+margin: 0;
 }
-.navbar{
+.navbar,footer{
 	background-color: #086e40;
 	width: 100%;
 	padding: 1rem 4rem;
+	color: #fff;
 }
 /*profil presid*/
 .profil .row{
@@ -29,46 +44,84 @@
 	height: 250px;
 }
 .text-profil p{
-	margin: 2rem auto;
+	margin: 3.5rem auto;
 	text-align: justify;
 }
 
 /*profil anggota*/
-.hansen{
+
+.profil-anggota .row{
 	text-align: center;
-	margin: auto 4rem;
-	padding: 5rem 1rem;
+	padding: 5% 2%;
+	margin: 2% auto;
 }
-.text-hansen{
-	text-align: right;
-}
-.foto-hansen-2{
-	text-align: left;
-}
-.foto-hansen{
+.profil-anggota .row img{
 	border-radius: 100%;
-	margin: auto 10rem;
-		border-style: solid;
-	border-width: 6px;
+	border-style: solid;
+	border-width: 5px;
 	border-color: #086e40;
 }
 
-.nathan{
-	text-align: center;
-	margin: auto 4rem;
-	padding: 5rem 1rem;
+.ketua{
+	padding-left: 10%;
 }
-.text-nathan{
-	text-align: left;
+.wakil{
+	padding-right: 10%;
 }
-.foto-nathan-2{
-	text-align: right;
+.anggota-11{
+	margin-top: 10%;
 }
-.foto-nathan{
-	border-radius: 100%;
-	margin: auto 10rem;
-	border-style: solid;
-	border-width: 6px;
-	border-color: #086e40;
+/*footer*/
+footer{
+	padding: 4%;
+
 }
-/***********id***********/
+footer a{
+	text-decoration: none;
+}
+footer a h4{
+	color: #d4b012;
+
+}
+footer a h4:hover, footer a i:hover{
+	opacity: 90%;
+}
+
+.fab{
+	margin-top: 0.5%;
+		color: white;
+	display:grid;
+	text-decoration: none;
+}	
+.fa-youtube{
+	margin-left: 10px;
+}
+
+/***********id**********/
+#jabatan-ketua{
+	color: #086e40;
+	opacity: 90%;
+}
+#footer-text{
+	position: relative;
+	top: 2rem;
+}
+/**********querries**********/
+@media (max-width: 990px){
+	.text-profil p{
+		text-align: center;
+	}
+	.wakil,.ketua{
+		margin-top: 10%;
+		padding: 5% 2%;
+	}
+	footer{
+		text-align: center;
+	}
+	h5{
+		margin-top: 5%;
+	}
+	.fab{
+		display: block;
+	}
+}
