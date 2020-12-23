@@ -134,11 +134,11 @@ footer a h4:hover, footer a i:hover{
 }
 /*karya ilmiah*/
 .karya-ilmiah{
-	padding: 3rem 4rem;
+	padding: 3rem 0;
 }
 .row-ki{
 	text-align: center;
-	margin: auto;
+	margin: auto ;
 }
 .row-ki .col-lg-4 .card{
 	text-align: center;
