@@ -164,14 +164,15 @@ footer a h4:hover, footer a i:hover{
 }
 .button-contact .btn{
 	border-radius: 20px;
-	margin: 1rem auto;
+	margin-tops: 1rem ;
 	padding: 1% 2%;
 }
-.button-contact .btn-email{
+.btn-email{
 	border-style: solid;
 	border-width: 0.5px;
 	border-color: #086e40;
 	color: black;
+	margin-right: 10px;
 }
 .button-contact .btn:hover, .button-instagram{
 	background: #086e40;
@@ -196,6 +197,7 @@ footer a h4:hover, footer a i:hover{
 /*widthnya disamain sama button e-mail*/
  .button-instagram{
  	width: 282.77px;
+ 	margin-left: 10px;
  }
 /*********************id**********************/
 
@@ -222,14 +224,15 @@ footer a h4:hover, footer a i:hover{
 	.button-contact .btn{
 		padding: 2% 3%;
 	}
-}
-
-@media (max-width: 390px){
-	/*contact*/
 	.button-contact .btn{
-		padding: 3% 4%;
+		padding: 2.5% 3.5%;
+	}
+	.btn-email{
+		width: 282.77px;
+		margin: 1rem auto;
 	}
 	.button-instagram{
-		width: 263.58px;
+		margin: 1rem auto;
 	}
 }
+
