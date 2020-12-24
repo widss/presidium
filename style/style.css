@@ -64,33 +64,36 @@ hr{
 }
 
 /*profil anggota*/
-
-.profil-anggota .row{
+.profil-pendamping, .profil-pendamping h1{
+	background-color: #086e40;
+	color: white;
+}
+.profil-anggota .row,.profil-pendamping .row{
 	text-align: center;
-	padding: 5% 2%;
+	padding: 6rem 2%;
 	margin: 2% auto 8rem auto;
 }
-.profil-anggota .row img{
+.profil-anggota .row img,.profil-pendamping .row img{
 	border-radius: 100%;
 	border-style: solid;
 	border-width: 5px;
+}
+.profil-anggota .row img{
 	border-color: #086e40;
 }
-.profil-anggota h2{
-	margin-top: 1rem;
+.profil-pendamping .row img{
+	border-color: white;
+}
+h1.profil, .col-lg-12{
+	padding-top: 6rem;
+}
+.profil-anggota h2,.profil-pendamping h2{
+	margin-top: 2rem;
 }
 .profil-anggota h1{
-	margin-bottom: 6rem;
+	margin-bottom: 0.5rem;
 }
-.ketua{
-	padding-left: 10%;
-}
-.wakil{
-	padding-right: 10%;
-}
-.anggota-11{
-	margin-top: 10%;
-}
+
 /*footer*/
 footer{
 	padding: 4%;
@@ -158,13 +161,17 @@ footer a h4:hover, footer a i:hover{
 /*********************tag**********************/
 
 /*********************class**********************/
+.head-contact h1,.head-contact p,.head-contact h5{
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+}
 .contact,.head-contact,.foto{
 	text-align: center;
 	margin: 5rem auto;
 }
 .button-contact .btn{
 	border-radius: 20px;
-	margin-tops: 1rem ;
+	margin-top: 1rem ;
 	padding: 1% 2%;
 }
 .btn-email{
@@ -193,6 +200,10 @@ footer a h4:hover, footer a i:hover{
 .foto img{
 	width: 200px;
 	height: 200px;
+}
+.logo-jb:hover{
+	opacity: 80%;
+	text-decoration: none;
 }
 /*widthnya disamain sama button e-mail*/
  .button-instagram{
