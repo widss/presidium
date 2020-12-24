@@ -104,13 +104,11 @@ footer a h4:hover, footer a i:hover{
 
 .fab{
 	margin-top: 0.5%;
-		color: white;
-	display:grid;
+	color: white;
+	display:inline;
 	text-decoration: none;
 }	
-.fa-youtube{
-	margin-left: 10px;
-}
+
 
 /***********id**********/
 #jabatan-ketua{
