@@ -22,8 +22,8 @@ hr{
 /***********class***********/
 /*navbar*/
 .container-fluid{
-padding: 0 !important;
-margin: 0;
+	padding: 0 !important;
+	margin: 0;
 }
 .navbar,footer{
 	background-color: #086e40;
@@ -68,7 +68,7 @@ margin: 0;
 .profil-anggota .row{
 	text-align: center;
 	padding: 5% 2%;
-	margin: 2% auto;
+	margin: 2% auto 8rem auto;
 }
 .profil-anggota .row img{
 	border-radius: 100%;
@@ -76,7 +76,12 @@ margin: 0;
 	border-width: 5px;
 	border-color: #086e40;
 }
-
+.profil-anggota h2{
+	margin-top: 1rem;
+}
+.profil-anggota h1{
+	margin-bottom: 6rem;
+}
 .ketua{
 	padding-left: 10%;
 }
@@ -120,7 +125,7 @@ footer a h4:hover, footer a i:hover{
 	top: 2rem;
 }
 
-/***************karya ilmiah****************/
+/*********************karya ilmiah************************/
 /*********************tag**********************/
 
 /*********************class**********************/
@@ -149,6 +154,51 @@ footer a h4:hover, footer a i:hover{
 }
 /*********************id**********************/
 
+/*********************contact presid************************/
+/*********************tag**********************/
+
+/*********************class**********************/
+.contact,.head-contact,.foto{
+	text-align: center;
+	margin: 5rem auto;
+}
+.button-contact .btn{
+	border-radius: 20px;
+	margin: 1rem auto;
+	padding: 1% 2%;
+}
+.button-contact .btn-email{
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: #086e40;
+	color: black;
+}
+.button-contact .btn:hover, .button-instagram{
+	background: #086e40;
+	color: white;
+}
+.fa-envelope{
+	margin-right: 4px;
+	position: relative;
+	top: 2px;
+}
+.fa-instagram{
+	margin-right: 8px;
+	transform: scale(1.25);
+	position: relative;
+	top: 1px;
+	
+}
+.foto img{
+	width: 200px;
+	height: 200px;
+}
+/*widthnya disamain sama button e-mail*/
+ .button-instagram{
+ 	width: 282.77px;
+ }
+/*********************id**********************/
+
 /**********querries**********/
 @media (max-width: 990px){
 	.text-profil p{
@@ -166,5 +216,20 @@ footer a h4:hover, footer a i:hover{
 	}
 	.fab{
 		display: block;
+	}
+
+	/*contact*/
+	.button-contact .btn{
+		padding: 2% 3%;
+	}
+}
+
+@media (max-width: 390px){
+	/*contact*/
+	.button-contact .btn{
+		padding: 3% 4%;
+	}
+	.button-instagram{
+		width: 263.58px;
 	}
 }
