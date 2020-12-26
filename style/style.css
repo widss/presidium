@@ -185,6 +185,9 @@ footer a h4:hover, footer a i:hover{
 	background: #086e40;
 	color: white;
 }
+.button-instagram:hover{
+	opacity: 85%;
+}
 .fa-envelope{
 	margin-right: 4px;
 	position: relative;
