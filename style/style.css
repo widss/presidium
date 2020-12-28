@@ -1,5 +1,5 @@
 /**********import***********/
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&display=swap');
 /***********tag***********/
 body{
 	margin: 0;
@@ -7,13 +7,18 @@ body{
 	width: 100%;
 	height: 100%;
 }
-h1{
+h1, h5{
 	text-align: center;
+}
+h1,h5,h2,h4{
+	font-family: 'Lato', sans-serif;
+}
+h1{
+	font-weight: 700;
 	color: #086e40;
 }
-h5{
-	text-align: center;
-
+p{
+	font-family: 'Montserrat', sans-serif;
 }
 hr{
 	width: 50%;
@@ -59,11 +64,16 @@ hr{
 	height: 250px;
 }
 .text-profil p{
-	margin: 3.5rem auto;
+	margin: 2rem auto;
 	text-align: justify;
+	line-height: 2;
 }
 
 /*profil anggota*/
+.foto-profil{
+	width: 140px;
+	height: 140px;
+}
 .profil-pendamping, .profil-pendamping h1{
 	background-color: #086e40;
 	color: white;
@@ -125,7 +135,7 @@ footer a h4:hover, footer a i:hover{
 }
 #footer-text{
 	position: relative;
-	top: 2rem;
+	top: 1rem;
 }
 
 /*********************karya ilmiah************************/
