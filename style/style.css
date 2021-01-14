@@ -227,6 +227,10 @@ footer a h4:hover, footer a i:hover{
 
 /**********querries**********/
 @media (max-width: 990px){
+	.navbar-toggle{
+		transform: scale(0.75);
+	}
+
 	.text-profil p{
 		text-align: center;
 	}
